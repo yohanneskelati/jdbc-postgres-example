@@ -14,7 +14,7 @@ public class Example {
         ResultSet resultSet = st.executeQuery(sql);
         resultSet.next();
         String name = resultSet.getString(1);
-        System.out.println(name);
+        System.out.println("name: "+ name);
         con.close();
     }
 }
